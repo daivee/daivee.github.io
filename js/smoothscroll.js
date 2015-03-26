@@ -9,7 +9,11 @@ $(".navbar-collapse ul li a[href^='#']").on('click', function(e) {
    // animate
    $('html, body').animate({
        scrollTop: $(hash).offset().top -50
+<<<<<<< HEAD
      }, 900, function(){
+=======
+     }, 1000, function(){
+>>>>>>> origin/master
 
        // when done, add hash to url
        // (default click behaviour)
@@ -57,7 +61,10 @@ $("#back-to-top a[href^='#']").on('click', function(e) {
      });
 
 });
+<<<<<<< HEAD
 
 $('.navbar-collapse a').click(function(){
     $('.navbar-collapse').collapse('hide');
 });
+=======
+>>>>>>> origin/master
