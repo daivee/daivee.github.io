@@ -60,4 +60,5 @@ $("#back-to-top a[href^='#']").on('click', function(e) {
 
 $('.navbar-collapse a').click(function(){
     $('.navbar-collapse').collapse('hide');
+   });
 });
