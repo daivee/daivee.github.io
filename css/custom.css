@@ -16,7 +16,16 @@ ul.nav{
 	background-color: #f5f5f5;	
 }
 
+#back-to-top{
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
 
+}
+
+#back-to-top a{
+	color: #333;
+}
 .jumbotron{
 	text-align: center;
 	background-image: url("../images/hero_image.jpg");
