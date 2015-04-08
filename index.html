@@ -43,7 +43,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#jumbotron">One Million Lines</a>
+        <a class="navbar-brand" href="#jumbotron">One Million Lines</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav navbar-right">
@@ -59,9 +59,27 @@
     <div id="jumbotron" class="jumbotron">
       <div class="container">
         <h1>Our goal is to inspire <br>Orange County to write 1,000,000<br> lines of code_</h1>
-        <p>All over the country people are taking the <strong>HOUR OF CODE</strong> challenge issued by <strong>CODE.org</strong>. Millions of lines of code are being written. In the city of Santa Ana, California, the community is taking the challenge and our goal is to write 1,000,000 lines of code_</p>
+        <p>All over the country people are taking the <strong>HOUR OF CODE</strong> challenge issued by <strong>CODE.org</strong>. Millions of lines of code are being written. In the capital of Florida, Tallahassee, the community is taking the challenge and our goal is to write 1,000,000 lines of code_</p>
         <p>
-        <p><a class="btn btn-danger btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+        <p><a class="btn btn-danger btn-lg" href="#" role="button" data-toggle="modal" data-target="#myModal">Learn more &raquo;</a></p>
+        <!-- Modal -->
+          <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                </div>
+                <div class="modal-body">
+                  ...
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+              </div>
+            </div>
+          </div>
         <img src="images/code.png" title="code.org logo" alt="code.org">
       </div>
     </div>
@@ -72,7 +90,7 @@
     <img src="images/academy_brand_med.png" title="Massive Academy" alt="massive academy">
       <h2>Who We Are</h2>
       <hr>
-      <p>We are <a href="http://www.makerbased.com/" target='_blank'>MASSIVE Academy</a>. We aim to improve education through both method - effective project-based learning - and material - by teaching skills that are applicable to improving your life today.</p>
+      <p>We are <a href="http://www.makerbased.com" target='_blank'>MASSIVE Academy</a>. We aim to improve education through both method - effective project-based learning - and material - by teaching skills that are applicable to improving your life today.</p>
      </div> 
     
      <div id="get-involved">  
@@ -116,14 +134,11 @@
     <footer>
       <div class="footer">
         <p><img src="images/bottom_brand.png"></p>      
-      </div>  
-    </footer>
-
-    <div id="back-to-top">
+      </div> 
+      <div id="back-to-top">
       <a href="#jumbotron"><i class="fa fa-3x fa-chevron-circle-up"></i></a>
-    </div>
-
-
+    </div> 
+    </footer>
 
 
     <!-- Bootstrap core JavaScript
@@ -133,6 +148,6 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/smoothscroll.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
   </body>
 </html>
