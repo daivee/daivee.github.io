@@ -61,9 +61,3 @@ $("#back-to-top a[href^='#']").on('click', function(e) {
 $('#back-to-top,.navbar-brand,.navbar-collapse a').click(function(){
     $('.navbar-collapse').collapse('hide');
 });
-<<<<<<< HEAD
-=======
-
-   });
-
->>>>>>> origin/master
