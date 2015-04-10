@@ -27,6 +27,32 @@ ul.nav{
 #back-to-top a{
 	color: #333;
 }
+.modal-content iframe{
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+
+.modal-content button.close{
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	background-color: white;
+	font-size: 28px;
+	width: 30px;
+	opacity: 1;
+	border-radius: 24px;
+	-webkit-border-radius: 24px;
+	-moz-border-radius: 24px;
+}
+
+.modal-dialog{
+	position: absolute;
+	left: 50%;
+	margin-left: -300px;
+	top: 50%;
+	margin-top: -173px;
+}
+
 .jumbotron{
 	text-align: center;
 	background-image: url("../images/hero_image.jpg");
