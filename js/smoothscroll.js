@@ -61,3 +61,10 @@ $("#back-to-top a[href^='#']").on('click', function(e) {
 $('#back-to-top,.navbar-brand,.navbar-collapse a').click(function(){
     $('.navbar-collapse').collapse('hide');
 });
+
+$('#myModal').on('show', function () { 
+ $('div.modal-body').html('YouTube iFrame goes here');  
+});
+$('#myModal').on('hide', function () {
+ $('div.modal-body').html('');
+});
