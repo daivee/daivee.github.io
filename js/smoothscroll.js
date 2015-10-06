@@ -4,16 +4,16 @@ $(".navbar-collapse ul li a[href^='#']").on('click', function(e) {
    e.preventDefault();
 
    // store hash
-   // var hash = this.hash;
+   var hash = this.hash;
 
    // animate
-   $('body').animate({
+   $('html, body').animate({
        scrollTop: $(hash).offset().top -50
      }, 900, function(){
 
        // when done, add hash to url
        // (default click behaviour)
-      // window.location.hash = hash;
+      window.location.hash = hash;
      });
 
 });
@@ -24,16 +24,16 @@ $("a.navbar-brand[href^='#']").on('click', function(e) {
  //  e.preventDefault();
 
    // store hash
-  // var hash = this.hash;
+   var hash = this.hash;
 
    // animate
-   $('body').animate({
+   $('html, body').animate({
        scrollTop: $(hash).offset().top -50
      }, 500, function(){
 
        // when done, add hash to url
        // (default click behaviour)
-      // window.location.hash = hash;
+       window.location.hash = hash;
      });
 
 });
@@ -44,16 +44,16 @@ $("#back-to-top a[href^='#']").on('click', function(e) {
    e.preventDefault();
 
    // store hash
- //  var hash = this.hash;
+   var hash = this.hash;
 
    // animate
-   $('body').animate({
+   $('html, body').animate({
        scrollTop: $(hash).offset().top -50
      }, 500, function(){
 
        // when done, add hash to url
        // (default click behaviour)
-      // window.location.hash = hash;
+       window.location.hash = hash;
      });
 
 });
