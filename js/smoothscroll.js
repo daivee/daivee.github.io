@@ -13,7 +13,7 @@ $(".navbar-collapse ul li a[href^='#']").on('click', function(e) {
 
        // when done, add hash to url
        // (default click behaviour)
-       window.location.hash = hash;
+      // window.location.hash = hash;
      });
 
 });
@@ -33,7 +33,7 @@ $("a.navbar-brand[href^='#']").on('click', function(e) {
 
        // when done, add hash to url
        // (default click behaviour)
-       window.location.hash = hash;
+      // window.location.hash = hash;
      });
 
 });
@@ -53,7 +53,7 @@ $("#back-to-top a[href^='#']").on('click', function(e) {
 
        // when done, add hash to url
        // (default click behaviour)
-       window.location.hash = hash;
+      // window.location.hash = hash;
      });
 
 });
