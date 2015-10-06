@@ -7,7 +7,7 @@ $(".navbar-collapse ul li a[href^='#']").on('click', function(e) {
    // var hash = this.hash;
 
    // animate
-   $('html, body').animate({
+   $('body').animate({
        scrollTop: $(hash).offset().top -50
      }, 900, function(){
 
@@ -27,7 +27,7 @@ $("a.navbar-brand[href^='#']").on('click', function(e) {
   // var hash = this.hash;
 
    // animate
-   $('html, body').animate({
+   $('body').animate({
        scrollTop: $(hash).offset().top -50
      }, 500, function(){
 
@@ -47,7 +47,7 @@ $("#back-to-top a[href^='#']").on('click', function(e) {
  //  var hash = this.hash;
 
    // animate
-   $('html, body').animate({
+   $('body').animate({
        scrollTop: $(hash).offset().top -50
      }, 500, function(){
 
