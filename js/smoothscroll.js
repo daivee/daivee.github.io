@@ -4,7 +4,7 @@ $(".navbar-collapse ul li a[href^='#']").on('click', function(e) {
    e.preventDefault();
 
    // store hash
-   var hash = this.hash;
+   // var hash = this.hash;
 
    // animate
    $('html, body').animate({
@@ -21,10 +21,10 @@ $(".navbar-collapse ul li a[href^='#']").on('click', function(e) {
 $("a.navbar-brand[href^='#']").on('click', function(e) {
 
    // prevent default anchor click behavior
-   e.preventDefault();
+ //  e.preventDefault();
 
    // store hash
-   var hash = this.hash;
+  // var hash = this.hash;
 
    // animate
    $('html, body').animate({
@@ -44,7 +44,7 @@ $("#back-to-top a[href^='#']").on('click', function(e) {
    e.preventDefault();
 
    // store hash
-   var hash = this.hash;
+ //  var hash = this.hash;
 
    // animate
    $('html, body').animate({
